@@ -1,0 +1,24 @@
+<!--div>
+  <h2>Product List</h2>
+  <app-product-list #productList></app-product-list>
+  </div-->
+  
+    <div class="example-row">
+      <ul>
+
+      <button mat-button [routerLink]="['/about-me']"> About Me </button>
+   
+ 
+      <button mat-button [routerLink]="['/skill']"> skill </button>
+
+   
+      <button mat-button [routerLink]="['/contact-me']"> Contact Me </button>
+    
+     
+        <button mat-button [routerLink]="['/portfolio']"> Portfolio </button>
+       
+      </ul>
+      
+      <div class="container">
+      <router-outlet></router-outlet>
+      </div>
